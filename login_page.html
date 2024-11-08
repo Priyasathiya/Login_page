@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-10">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Containers</title>
+     <style>
+	body{
+		background-color: #ecf3fb;
+            }
+    /* Container */
+    .container {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Container 1 */
+    .container1 {
+      width: 40%;
+      height: 600px;
+      background-color: #2b3445;
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .container2 {
+      width: 40%;
+      height: 600px;
+      backgroud-color: #fff;
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    image{
+      width: 25px;
+      height: 25px;
+      margin-left: 10px;
+      background-color: #edf2f6;
+      padding: 7px 10px;
+      border-radius: 5px;
+      }
+       /* part for heading alignment*/
+              h1 {
+            text-align: center;
+        }
+         
+        .heading {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+        }
+
+        .name,
+        .pass {
+            color: #2b3445;
+            font-weight: 700;
+        }
+
+        .input {
+            background-color: #edf2f6;
+            border: none;
+            width: 400px;
+            height: 20px;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 1px 1px #ecf3fb;
+            color: #c4c9cf;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+
+        ::placeholder {
+            color:#c4c9cf;
+            opacity: 1;
+        }
+        .button{
+            color: #fff;
+            width: 425px;
+            height: 40px;
+            border-radius: 5px;
+            background-color: green;
+            border: none;
+            font-weight: 500;
+        }
+        .icon{
+            width: 60px;
+            height: 60px;
+            padding: 10px;
+            border-radius:100%;
+            margin-left: 30px;
+        }
+        .arrow{
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+            border-radius:100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <div>
+                <img src="C:\Users\Administrator\Desktop\sathiya priya\assets\emoji (1).jpeg" class="icon"/>
+                <img src="C:\Users\Administrator\Desktop\sathiya priya\assets\write.jpeg" class="icon" />
+                <img src="C:\Users\Administrator\Desktop\sathiya priya\assets\images.jpeg" class="icon" />
+            </div>
+            <div style="width: 150px; height: auto; text-align: center; color: #fff; font-size: 23px;">
+                 <p> Start to design Wisely </p>
+            </div>
+            <div class="about">
+                <p style="color: #fff; width: 300px; text-align: center;">
+                     <small> A full-value product supporting the design process using Figma's auto-layout and variants </small>
+                </p>
+            </div>
+            <div>
+                <img src="C:\Users\Administrator\Desktop\sathiya priya\assets\icons8-left-arrow-40 (2).png" class="arrow" />
+                <img src="C:\Users\Administrator\Desktop\sathiya priya\assets\icons8-left-arrow-40.png" class="arrow" />
+            </div>
+        </div>
+        <div class="container2">
+            <div class="heading">
+                <h1 style="color:#2b3445;">Sign in to Clever</h1>
+                <div>
+                    <img src="C:\Users\Administrator\Desktop\sathiya priya\assets\icons8-google-50.png"class="image"/>
+                    <img src="C:\Users\Administrator\Desktop\sathiya priya\assets\icons8-apple-50.png" class="image" />
+                    <img src="C:\Users\Administrator\Desktop\sathiya priya\assets\icons8-facebook-50.png" class="image" />
+                    <p style="text-align: center;<small> do it via E-mail</small></p>
+                </div>
+                <div class="form">
+                    <form>
+                        <label for="E-mail" class="name">E-mail</label><br />
+                        <input type="email" id="E-mail" placeholder="@mail.com" class="input" /><br />
+                        <label for="Password" class="pass">Password</label><br />
+                        <input type="password" id="Password" placeholder="Password" class="input" /><br />
+                        <small>Must be 6 characters at least</small>
+                        <div class="attachment"
+                            style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;margin-top: 10px;">
+                            <div>
+                                <input type="checkbox" id="remember" />
+                                <label for="remember" style="font-weight: 600;">Remember me</label>
+                            </div>
+                            <div>
+                                <p style="color: #4c6fff; font-weight: 600; font-size: 15px;">Forgot Password?</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="button">Sign in</button></div>
+                            <p style="text-align: center ; color: #c1c6cc;"><small>&copy;2020 All Rights Reserved</small></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>1
+  </div>
+</body>
+</html>
